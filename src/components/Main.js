@@ -1,5 +1,3 @@
-// src/components/Main.js
-import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import RecipeList from './RecipeList';
 import RecipeDetail from './RecipeDetail';
