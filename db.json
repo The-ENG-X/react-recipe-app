@@ -38,7 +38,7 @@
                 "Alle Zutaten in einer großen Schüssel mit Caesar Dressing vermischen.",
                 "Mit frisch geriebenem Parmesan bestreuen."
             ],
-            "image": "https://example.com/images/caesar-salad.jpg"
+            "image": "https://unsplash.com/photos/vegetable-salad-pCxJvSeSB5A"
         },
         {
             "id": 3,
@@ -78,7 +78,7 @@
                 "Paprikapulver, Tomaten und Brühe hinzufügen, zum Kochen bringen und auf niedriger Hitze 2 Stunden köcheln lassen.",
                 "Mit Salz und Pfeffer abschmecken und servieren."
             ],
-            "image": "https://example.com/images/rindergulasch.jpg"
+            "image": "https://unsplash.com/photos/cooked-food-on-pan-9Zp_6nIJafs"
         },
         {
             "id": 8,
@@ -98,7 +98,7 @@
                 "Linsen, Kreuzkümmel und Gemüsebrühe hinzufügen, zum Kochen bringen und bei mittlerer Hitze 20 Minuten köcheln lassen.",
                 "Mit einem Pürierstab leicht pürieren, mit Salz und Pfeffer abschmecken und servieren."
             ],
-            "image": "https://example.com/images/linsensuppe.jpg"
+            "image": "https://unsplash.com/photos/a-bowl-of-soup-and-a-spoon-on-a-towel-LVSK7XnKHIE"
         },
         {
             "id": 9,
@@ -118,7 +118,7 @@
                 "Teig in eine gefettete Kuchenform geben, Äpfel darauflegen und mit Zimt bestreuen.",
                 "Bei 180°C 45 Minuten backen."
             ],
-            "image": "https://example.com/images/apfelkuchen.jpg"
+            "image": "https://images.unsplash.com/photo-1601925432519-0c8ab5c19f96?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGFwcGxlJTIwcGllfGVufDB8fDB8fHww"
         },
         {
             "id": 10,
@@ -139,7 +139,7 @@
                 "Gekochte Spaghetti und Basilikum unter die Tomatensauce mischen.",
                 "Mit Salz und Pfeffer abschmecken und servieren."
             ],
-            "image": "https://example.com/images/tomaten-spaghetti.jpg"
+            "image": "https://images.unsplash.com/photo-1581291519195-ef11498d1cf8?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BhZ2hldHRpJTIwdG9tYXRvfGVufDB8fDB8fHww"
         },
         {
             "id": 11,
@@ -162,7 +162,7 @@
                 "Gekochten Reis und Tomatensauce unterrühren, mit Salz und Pfeffer würzen.",
                 "Die Mischung in die Paprika füllen, mit Käse bestreuen und bei 180°C 30 Minuten backen."
             ],
-            "image": "https://example.com/images/gefuellte-paprika.jpg"
+            "image": "https://images.unsplash.com/photo-1614855300465-8a43bb941c65?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWZmZWQlMjBwb3BwZXJzJTIwZGlzaHxlbnwwfHwwfHx8MA%3D%3D"
         },
         {
             "id": 12,
@@ -181,7 +181,7 @@
                 "Mehl sieben und unterheben.",
                 "In eine gefettete Backform füllen und bei 175°C 40 Minuten backen."
             ],
-            "image": "https://example.com/images/schokoladenkuchen.jpg"
+            "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hvY29sYXRlJTIwY2FrZXxlbnwwfHwwfHx8MA%3D%3D"
         },
         {
             "id": 13,
@@ -204,7 +204,7 @@
                 "Suppe pürieren, Sahne einrühren und mit Salz und Pfeffer abschmecken.",
                 "Mit gerösteten Kürbiskernen servieren."
             ],
-            "image": "https://example.com/images/kuerbissuppe.jpg"
+            "image": "https://images.unsplash.com/photo-1601925432519-0c8ab5c19f96?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fHNvdXB8ZW58MHx8MHx8fDA%3D"
         }
     ]
 }
