@@ -8,8 +8,8 @@ describe('RecipeDetail', () => {
     const recipeData = {
       id: '1',
       name: 'Test Recipe',
-      ingredients: ['Ingredient 1', 'Ingredient 2'],
-      steps: ['Step 1', 'Step 2'],
+      ingredients:'Ingredient 1',
+      steps: 'Step 1',
       image: 'test.jpg'
     };
 
@@ -37,5 +37,4 @@ describe('RecipeDetail', () => {
     expect(screen.getByText('Ingredient 1')).toBeInTheDocument();
     expect(screen.getByText('Step 1')).toBeInTheDocument();
   });
-  global.fetch.mockRestore();
 });
