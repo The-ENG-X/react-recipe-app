@@ -21,9 +21,7 @@ describe('RecipeDetail', () => {
     render(
       <MemoryRouter initialEntries={['/recipes/1']}>
         <Routes>
-            <Route path="/recipes/:id">
-                <RecipeDetail />
-            </Route>
+            <Route path="/recipes/:id" element={<RecipeDetail />} />    
         </Routes>
       </MemoryRouter>
     );
