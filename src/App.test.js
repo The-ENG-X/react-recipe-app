@@ -6,6 +6,7 @@ import { ThemeProvider, useTheme } from "./ThemeContext";
 
 
 jest.mock('./components/ThemeContext', () => ({
+  ...jest.requireActual('./components/ThemeContext'),
   useTheme: jest.fn(),
   ThemeProvider: ({ children }) => <div>{children}</div>, 
 }));
