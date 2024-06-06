@@ -2,6 +2,7 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import RecipeDetail from './RecipeDetail';
+import { act } from 'react-dom/test-utils';
 
 describe('RecipeDetail', () => {
   test('renders recipe details correctly', async () => {
@@ -18,13 +19,14 @@ describe('RecipeDetail', () => {
           json: () => Promise.resolve(recipeData)
         })
       );
-    render(
-      <MemoryRouter initialEntries={['/recipes/1']}>
-        <Routes>
-            <Route path="/recipes/:id" element={<RecipeDetail />} />    
-        </Routes>
-      </MemoryRouter>
-    );
+        render(
+          <MemoryRouter initialEntries={['/recipes/1']}>
+            <Routes>
+                <Route path="/recipes/:id" element={<RecipeDetail />} />
+            </Routes>
+          </MemoryRouter>
+        );
+
 
     const recipeName = await screen.findByText('Test Recipe');
     const ingredients = screen.getByText('Ingredients');

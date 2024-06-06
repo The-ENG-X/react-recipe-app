@@ -6,7 +6,7 @@ const RecipeList = () => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/recipes")
+    fetch("http://10.0.19.150:3001/recipes")
       .then((response) => response.json())
       .then((data) => setRecipes(data))
       .catch((error) => console.error("Error fetching data:", error));

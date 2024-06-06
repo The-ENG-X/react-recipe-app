@@ -7,7 +7,7 @@ const RecipeDetail = () => {
   const [recipe, setRecipe] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:3001/recipes/${id}`)
+    fetch(`http://10.0.19.150:3001/recipes/${id}`)
       .then((response) => response.json())
       .then((data) => setRecipe(data))
       .catch((error) => console.error("Error fetching data:", error));
