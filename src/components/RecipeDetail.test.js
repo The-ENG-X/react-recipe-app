@@ -1,6 +1,6 @@
 
 import { render, screen } from '@testing-library/react';
-import { MemoryRouter, Route } from 'react-router-dom';
+import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import RecipeDetail from './RecipeDetail';
 
 describe('RecipeDetail', () => {
@@ -20,9 +20,11 @@ describe('RecipeDetail', () => {
       );
     render(
       <MemoryRouter initialEntries={['/recipes/1']}>
-        <Route path="/recipes/:id">
-          <RecipeDetail />
-        </Route>
+        <Routes>
+            <Route path="/recipes/:id">
+                <RecipeDetail />
+            </Route>
+        </Routes>
       </MemoryRouter>
     );
 
