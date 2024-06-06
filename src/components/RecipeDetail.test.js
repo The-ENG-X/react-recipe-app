@@ -1,4 +1,4 @@
-// RecipeDetail.test.js
+
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter, Route } from 'react-router-dom';
 import RecipeDetail from './RecipeDetail';
@@ -13,10 +13,11 @@ describe('RecipeDetail', () => {
       image: 'test.jpg'
     };
 
-    jest.spyOn(global, 'fetch').mockResolvedValueOnce({
-      json: async () => recipeData,
-    });
-
+    jest.spyOn(global, "fetch").mockImplementation(() =>
+        Promise.resolve({
+          json: () => Promise.resolve(recipeData)
+        })
+      );
     render(
       <MemoryRouter initialEntries={['/recipes/1']}>
         <Route path="/recipes/:id">
@@ -25,7 +26,6 @@ describe('RecipeDetail', () => {
       </MemoryRouter>
     );
 
-    // Wait for the recipe details to load
     const recipeName = await screen.findByText('Test Recipe');
     const ingredients = screen.getByText('Ingredients');
     const steps = screen.getByText('Steps');
