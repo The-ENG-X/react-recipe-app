@@ -2,7 +2,10 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
+
+
 jest.mock('./components/ThemeContext', () => ({
+  useTheme: jest.fn(),
   ThemeProvider: ({ children }) => <div>{children}</div>, 
 }));
 
